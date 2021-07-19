@@ -110,7 +110,9 @@ export default function BasicTable() {
                       const ds = data.filter((d, index) => {
                         return index !== i;
                       });
+                      
                       setData(ds);
+                      setTotal(total-(item.quantity * item.price));
                     }}
                     style={{
                       cursor: "pointer",
