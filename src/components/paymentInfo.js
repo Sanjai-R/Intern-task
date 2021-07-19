@@ -44,7 +44,7 @@ function PaymentInfo() {
             <Dates txt="yyyy" />
           </div>
         </div>
-        <div style={{ display: "flex", marginLeft: "2%",flexDirection: "column",alignItems: "center"}}>
+        <div style={{ display: "flex",marginTop: "10px" ,marginLeft: "2%",flexDirection: "column",alignItems: "center"}}>
           <h4 style={{ textAlign: "start"}}>CVV</h4>
           <input type="number" />
         </div>
